@@ -1,0 +1,118 @@
+.accomodationContainer {
+    max-width: 1240px;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    color: #ff6060;
+}
+.accomodationDropDown {
+    display: flex;
+    width: calc(100% - 40px);
+    gap: 60px;
+    margin: auto;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 0 20px;
+}
+
+.accomodationInfo {
+    margin-top: 24px;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+//
+.logementTitle {
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.logementLocation {
+    font-size: 18px;
+    margin-top: 0;
+}
+
+.hostContainer {
+    gap: 10px;
+}
+
+.hostName {
+    gap: 10px;
+}
+
+.hostInfo {
+    display: flex;
+    align-items: center;
+    margin: 20px 0 17px 0;
+    gap: 10px;
+}
+.tagContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hostPicture {
+    border-radius: 50%;
+    height: 64px;
+}
+
+@media screen and (max-width: 768px) {
+    .accomodationContainer {
+        margin: 0 20px;
+        flex-direction: column;
+    }
+
+    .logementTitle {
+        font-size: 18px;
+        max-width: 250px;
+    }
+
+    .logementLocation {
+        font-size: 14px;
+        margin-top: 5px;
+    }
+    .accomodationInfo {
+        display: flex;
+        flex-direction: column;
+    }
+    .HostAndRatin {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 18px;
+    }
+    .hostPicture {
+        height: 32px;
+    }
+    .hostName {
+        font-size: 12px;
+        margin: 0;
+        max-width: 62px;
+        text-align: right;
+    }
+
+    .accomodationContainer {
+        .accomodationDropDown {
+            display: flex;
+            flex-direction: column;
+            gap: 0;
+            width: 100%;
+            padding: 0;
+        }
+    }
+    .hostInfo {
+        margin: 0 0 15px 0;
+    }
+    .rating {
+        margin-bottom: 12px;
+    }
+}
+@media screen and (max-width: 992px) {
+    .accomodationDropDown {
+        flex-direction: row;
+    }
+}

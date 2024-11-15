@@ -1,0 +1,33 @@
+.containerAbout {
+    padding: 0 20px;
+    max-width: 1240px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.bannerAbout {
+    height: 225px;
+    border-radius: 25px;
+    margin-bottom: 60px;
+    object-fit: scale-down;
+    overflow: hidden;
+}
+
+.DropDownAbout {
+    max-width: 1023px;
+    margin: auto;
+}
+
+.containerAbout .aboutBanner img {
+    object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+    .containerAbout {
+        margin: 0;
+    }
+    .aboutBanner {
+        margin-top: 10px;
+        height: 223px;
+    }
+}

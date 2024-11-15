@@ -1,0 +1,9 @@
+.outlet {
+    display: flex;
+    flex-flow: column;
+    flex-grow: 1;
+    align-items: center;
+    box-sizing: border-box;
+    min-height: calc(100vh - 255px);
+    padding-bottom: 32px;
+}

@@ -1,0 +1,43 @@
+.notFound {
+  color: #ff6060;
+  display: flex;
+  flex-direction: column;
+  h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 288px;
+    font-weight: bold;
+    margin: 200px 0 0 0;
+  }
+  p {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    margin-bottom: 150px;
+  }
+  a {
+    color: #ff6060;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    text-decoration: underline;
+  }
+}
+//
+@media screen and (max-width: 768px) {
+  .notFound {
+    h1 {
+      font-size: 96px;
+    }
+    p {
+      font-size: 18px;
+      max-width: 260px;
+      margin: auto;
+      text-align: center;
+    }
+    a {
+      margin-top: 144px;
+      font-size: 14px;
+    }
+  }
+}
